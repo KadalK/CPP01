@@ -1,6 +1,5 @@
 #include "Harl.hpp"
 
-
 void Harl::debug(void)
 {
 	std::cout << "[ DEBUG ]\nI love having extra hallal bacon for my 7XL-double-cheese-triple-pickle-specialketchup burger. I really do!" << std::endl;

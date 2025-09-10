@@ -18,7 +18,7 @@ $(NAME): $(OBJS)
 
 $(OBJ_DIR)%.o: %.cpp
 	@mkdir -p $(@D)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -MMD -MP -c $< -o $@
+	$(CC) $(CFLAGS) -I $(INC_DIR) -MMD -MP -c $< -o $@
 
 clean:
 	rm -rf $(OBJ_DIR)

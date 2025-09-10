@@ -5,13 +5,9 @@ Zombie::Zombie(): _name("Default") {
 }
 
 
-Zombie::Zombie(std::string name): _name(name) {
+Zombie::Zombie(std::string name): _name(name) {}
 
-}
-
-Zombie::~Zombie() {
-
-}
+Zombie::~Zombie() {}
 
 const std::string& Zombie::getName() const
 {

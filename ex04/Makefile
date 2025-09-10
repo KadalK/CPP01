@@ -2,7 +2,7 @@ NAME = Looser
 CPP= c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 
-SRCS = main.cpp sed.cpp
+SRCS = main.cpp
 
 $(NAME): $(SRCS) Makefile
 	$(CPP) $(CFLAGS) $(SRCS) -o $(NAME)

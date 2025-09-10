@@ -3,17 +3,17 @@
 
 HumanB::HumanB() {
 
-};
+}
 
 HumanB::HumanB(std::string name, Weapon* type) : _name(name), _weapon(type) {
-};
+}
 
 HumanB::HumanB(std::string name) : _name(name), _weapon(NULL) {
-};
+}
 
 HumanB::~HumanB() {
 
-};
+}
 
 void HumanB::attack()
 {

@@ -13,5 +13,5 @@ int main()
 	std::cout << "PTR ADR = " << stringPTR << std::endl << std::endl;
 
 	std::cout << "REF VALUE = " << stringREF << std::endl;
-	std::cout << "REF ADR = " << &stringREF << std::endl << std::endl;
+	std::cout << "REF ADR = " << &stringREF << std::endl;
 }
